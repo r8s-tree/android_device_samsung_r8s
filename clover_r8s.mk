@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The yaap Project
+# Copyright (C) 2023 The clover Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/r8s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common yaap stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common clover stuff.
+$(call inherit-product, vendor/clover/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := r8s
-PRODUCT_NAME := yaap_r8s
+PRODUCT_NAME := clover_r8s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G780F
 PRODUCT_MANUFACTURER := samsung
