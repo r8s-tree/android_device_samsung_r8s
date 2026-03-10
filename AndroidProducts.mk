@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r8s.mk
+    $(LOCAL_DIR)/infinity_r8s.mk
